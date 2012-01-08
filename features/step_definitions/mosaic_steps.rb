@@ -1,3 +1,3 @@
 When /^I run mosaic (.*)$/ do |args|
-  run(unescape("../../bin/mosaic #{args}"), false)
+  run(unescape("../../bin/mosaic.rb #{args}"), false)
 end
